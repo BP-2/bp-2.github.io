@@ -1,2 +1,2 @@
-# brady.github.io
+# bp-2.github.io
 Personal Website project
