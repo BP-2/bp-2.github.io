@@ -27,6 +27,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend/app
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -38,7 +41,6 @@ jobs:
           cache-dependency-path: frontend/app/package-lock.json
       - name: Install dependencies
         run: npm install
-        working-directory: frontend/app
       - name: Build
         run: npm run build
       - name: Setup Pages
