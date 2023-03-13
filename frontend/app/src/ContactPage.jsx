@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.scss";
 import { Link } from "react-router-dom";
+import ContactCard from "./ContactCard";
 
 function Contact() {
   const [count, setCount] = useState(0);
@@ -26,13 +27,14 @@ function Contact() {
               <Link to={"/Contact"}> Contact </Link>
             </li>
           </ul>
-          <p> CONTACT</p>
+          <ContactCard></ContactCard>
           <div className="layer rocks2"></div>
           <div className="layer rocks1"></div>
           <div className="layer hills"></div>
           <div className="layer foreground"></div>
         </div>
       </div>
+      
     </div>
   );
 }

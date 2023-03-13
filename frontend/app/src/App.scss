@@ -119,9 +119,6 @@ a:visited{
 	color: white;
 }
 
-a:hover{
-	color: purple;
-}
 
 a:active{
 	color: white;
@@ -159,7 +156,7 @@ ul {
     position: relative;
     width: 27em;
     height: 2em;
-    margin: 100px auto;
+    margin: 100px auto !important;
     padding: 0;
     white-space: nowrap;
   }
@@ -257,3 +254,7 @@ ul {
   }
   
   ul li a:focus { border-bottom: 3px solid #ee363c; }
+
+
+
+  
