@@ -72,8 +72,8 @@ function App() {
         <span></span>
       </div>
       <div className="heading-div">
-      <h1 className = "heading">Hi, i'm Brady</h1>
-      <h2 className="sub-heading">Let's code</h2>
+      <h1 className = "heading">Hi, I'm Brady</h1>
+      <h2 className="sub-heading">let's code!</h2>
       </div>
       
     </div>
