@@ -1,0 +1,13 @@
+docker run \
+    -it --rm \
+    --network bridge \
+    postgres:latest \
+    psql -h 172.17.0.2 -U postgres
+
+
+CREATE TABLE ContactMessage(id int, name text, message text);
+
+
+INSERT INTO contactmessage VALUES(1, 'Brady Phelps', 'Hello DB');
+
+SELECT * FROM contactmessage;

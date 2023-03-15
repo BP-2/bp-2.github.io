@@ -7,6 +7,12 @@ function ContactCard() {
   return (
     <div className="card">
       <div className="content-stuff">
+      <label
+          htmlFor="title"
+          className="block ml-5 mb-4 mt-2 text-lg font-medium leading-6 text-gray-900"
+        >
+          <b>Lets work together!</b>
+        </label>
         <label
           htmlFor="name"
           className="block text-sm font-medium leading-6 text-gray-900"

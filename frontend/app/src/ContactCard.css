@@ -6,13 +6,14 @@
 
 
 .card{
+    margin-top:20%;
     background-color: white;
     position: relative;
     align-self: center;
     left: 25%;
-    width: 50%;
+    width: 60%;
     border-radius: 25px;
-    z-index: 1;
+    z-index: 0;
 }
 
 .heading{
