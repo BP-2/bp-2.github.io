@@ -110,13 +110,6 @@ function Contact() {
           <span></span>
           <span></span>
           <span> </span>
-          <span></span>
-          <span></span>
-          <span> </span>
-          <span></span>
-          <span></span>
-          <span> </span>
-          <span></span>
         </div>
         <ContactCard />
       </div>

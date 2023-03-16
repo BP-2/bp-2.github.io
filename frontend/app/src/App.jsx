@@ -101,20 +101,13 @@ function App() {
         </Link>
       </div>
       <div className = "bubbles">
-        <span> </span>
-        <span></span>
-        <span></span>
-        <span> </span>
-        <span></span>
-        <span></span>
-        <span> </span>
-        <span></span>
-        <span></span>
-        <span> </span>
-        <span></span>
-        <span></span>
-        <span> </span>
-        <span></span>
+      <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
       </div>
       <div className="heading-div">
       <h1 className = "heading">Hi, I'm Brady</h1>
