@@ -8,30 +8,119 @@ function Contact() {
 
   return (
     <div>
-      <div className="navbar">
-        <Link className = "logo" to={"/"}>BP</Link>
-        <Link className="nav-link" to={"/"}>
-          {" "}
-          Home{" "}
-        </Link>
+      <div class="visibledesktop">
+        <div className="navbar">
+          <Link className="logo" to={"/"}>
+            BP
+          </Link>
+          <Link className="nav-link" to={"/"}>
+            {" "}
+            Home{" "}
+          </Link>
 
-        <Link className="nav-link" to={"/Projects"}>
-          {" "}
-          Projects{" "}
-        </Link>
+          <Link className="nav-link" to={"/Projects"}>
+            {" "}
+            Projects{" "}
+          </Link>
 
-        <Link className="nav-link" to={"/About"}>
-          {" "}
-          About{" "}
-        </Link>
+          <Link className="nav-link" to={"/About"}>
+            {" "}
+            About{" "}
+          </Link>
 
-        <Link className="nav-link" to={"/Contact"}>
-          {" "}
-          Contact{" "}
-        </Link>
+          <Link className="nav-link" to={"/Contact"}>
+            {" "}
+            Contact{" "}
+          </Link>
+        </div>
+        <div className="bubbles">
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ContactCard />
       </div>
-      <ContactCard/>
+      <div class="visibledevice">
+        <div className="navbar">
+          <Link className="logo" to={"/"}>
+            BP
+          </Link>
+          <Link className="nav-link" to={"/"}>
+            {" "}
+            Home{" "}
+          </Link>
+
+          <Link className="nav-link" to={"/Projects"}>
+            {" "}
+            Projects{" "}
+          </Link>
+
+          <Link className="nav-link" to={"/About"}>
+            {" "}
+            About{" "}
+          </Link>
+
+          <Link className="nav-link" to={"/Contact"}>
+            {" "}
+            Contact{" "}
+          </Link>
+        </div>
+        <div className="bubbles">
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+          <span></span>
+          <span> </span>
+          <span></span>
+        </div>
+        <ContactCard />
       </div>
+    </div>
   );
 }
 

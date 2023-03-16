@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300';
+
+
+
+.container {
+  perspective: 800px;
+
+  /* Styling */
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  /* Center it */
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-two {
+  /* Styling */
+  width: 20%;
+  height: 10%;
+  color:black;
+  position: relative;
+  align-self: center;
+  left: 40%;
+  /* Card flipping effects */
+  transform-style: preserve-3d;
+  transition: 0.6s;
+}
+
+
+
+/* Make semi-responsive */
+@media (max-width: 700px) {
+  .card {
+    transform: scale(0.5);
+  }
+  .container:hover .card {
+    transform: scale(0.5) rotateY(-180deg) translateZ(1px);
+  }
+}
+
+
+
+
+
+
+.screen {
+  margin-top:10%;
+  margin-left: 20%;
+  background: #90c5ff;
+  border: 7px solid #585859;
+  border-radius: 10px; 
+  color: #585859;
+  height: 400px;
+  width: 60%;
+  position: relative;
+  
+  .screen-bottom {
+    position: absolute;
+    bottom: -48px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 40px solid #d8d9dd;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    width: 50px; 
+    
+    &:before { 
+      content: '';
+      position: absolute; 
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0px;
+      background: #a7a8ab;
+      border-radius: 5px;
+      height: 6px;
+      width: 60px;
+    }
+  }
+}
