@@ -101,7 +101,11 @@ function App() {
         </Link>
       </div>
       <div className = "bubbles">
-      <span> </span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
           <span></span>
           <span></span>
           <span></span>

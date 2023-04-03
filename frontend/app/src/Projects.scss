@@ -9,3 +9,13 @@
         color: #ff2d75;
     }
 }
+
+.construction-mobile{
+    display: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+@media (max-width : 500px) {
+    .construction-mobile {display:block;}
+    .construction {display:none;}
+}
