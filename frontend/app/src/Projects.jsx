@@ -34,7 +34,9 @@ function Projects() {
         
       </div>
       <div className= "visibledevice">
-        <h1 className = "heading">Hi, I'm Brady</h1>
+        <div className="mobile-construction">
+          <h1 className = "heading">Hi, I'm Brady</h1>
+        </div>
       </div>
       <div className = "visibledesktop">
         <div className="construction">
