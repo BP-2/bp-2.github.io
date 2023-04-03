@@ -42,6 +42,7 @@ function About() {
       </div>
       <div className="visibledevice">
         <div className="spacer-top">
+        
         <TimeLine />
         </div>
       </div>
