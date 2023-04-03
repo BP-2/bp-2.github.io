@@ -40,7 +40,7 @@ function Projects() {
         </div>
       </div>
       <div className= "visibledevice">
-        <div className="construction-mobile">
+        <div className="mobile-construction">
         <h1>Currently under construction.  Try visiting my <a href="https://github.com/BP-2">GitHub</a> for some projects! mobile</h1>
         </div>
       </div>
