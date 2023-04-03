@@ -40,8 +40,7 @@ function About() {
         <AboutMeCard />
       </div>
       <div className="visibledevice">
-        <div spacer-top>
-          
+        <div className = "spacer-top">
         </div>
       </div>
       <TimeLine/>
