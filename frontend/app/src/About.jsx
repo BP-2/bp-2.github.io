@@ -33,17 +33,16 @@ function About() {
           Contact{" "}
         </Link>
       </div>
-      <div className="screen">
-        <div className="screen-bottom"></div>
-      </div>
       <div className="visibledesktop">
+        <div className="screen">
+          <div className="screen-bottom"></div>
+        </div>
         <AboutMeCard />
       </div>
       <div className="visibledevice">
-        <div className = "spacer-top">
-        </div>
+        <div className="spacer-top"></div>
       </div>
-      <TimeLine/>
+      <TimeLine />
     </div>
   );
 }
