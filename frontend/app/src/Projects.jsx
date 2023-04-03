@@ -35,10 +35,14 @@ function Projects() {
       </div>
 
       <div className = "visibledesktop">
-        <h1>Currently under construction.  Try visiting my <a href="https://github.com/BP-2">GitHub</a> for some projects! not mobile </h1>
+        <div className="construction">
+          <h1>Currently under construction.  Try visiting my <a href="https://github.com/BP-2">GitHub</a> for some projects! not mobile </h1>
+        </div>
       </div>
       <div className= "visibledevice">
+        <div className="construction-mobile">
         <h1>Currently under construction.  Try visiting my <a href="https://github.com/BP-2">GitHub</a> for some projects! mobile</h1>
+        </div>
       </div>
 
     </div>
