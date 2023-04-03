@@ -63,7 +63,7 @@ function Contact() {
             Contact{" "}
           </Link>
         </div>
-        <div className = "center-form">
+        <div className = "center-form-mobile">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsLIJMlIf9WwGzlGjz8sEQJnT6oysj8jVDz8XppkYhcjzjKA/viewform?embedded=true" width="340" height="406" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
       </div>
