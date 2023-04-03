@@ -81,4 +81,14 @@
       width: 60px;
     }
   }
+
+
+.mobile {display:none;}
+.desktop {display:display;}
+
+@media (max-width : 500px) {
+    .mobile {display:block;}
+    .desktop {display:none;}
+}
+
 }

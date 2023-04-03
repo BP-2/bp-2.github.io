@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 function TimeLine() {
   return (
-    <div className="row">
+  <div className="row">
+
   <div className="main-timeline">
   <h1 className="title-wrap"> History of employment... </h1>
     <div className="timeline">
@@ -70,6 +71,8 @@ function TimeLine() {
 
     </div>
   </div>
+
+  
   <span className = "spacer"></span>
 </div>
   );
