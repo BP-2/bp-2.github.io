@@ -36,11 +36,13 @@ function About() {
       <div className="screen">
         <div className="screen-bottom"></div>
       </div>
-      <div className="desktop">
+      <div className="visibledesktop">
         <AboutMeCard />
       </div>
-      <div className="mobile">
-
+      <div className="visibledevice">
+        <div spacer-top>
+          
+        </div>
       </div>
       <TimeLine/>
     </div>

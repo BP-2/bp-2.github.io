@@ -31,7 +31,9 @@
   transition: 0.6s;
 }
 
-
+.spacing-top{
+  margin-top: 20%;
+}
 
 /* Make semi-responsive */
 @media (max-width: 700px) {
@@ -82,13 +84,5 @@
     }
   }
 
-
-.mobile {display:none;}
-.desktop {display:display;}
-
-@media (max-width : 500px) {
-    .mobile {display:block;}
-    .desktop {display:none;}
-}
 
 }
