@@ -8,7 +8,7 @@ function Contact() {
 
   return (
     <div>
-      <div class="visibledesktop">
+      <div className="visibledesktop">
         <div className="navbar">
           <Link className="logo" to={"/"}>
             BP
@@ -33,51 +33,12 @@ function Contact() {
             Contact{" "}
           </Link>
         </div>
-        <div className="bubbles">
-          <span> </span>
-          <span></span>
-          <span></span>
-          <span> </span>
-          <span></span>
-          <span></span>
-          <span> </span>
-          <span></span>
-          <span></span>
-          <span> </span>
-          <span></span>
-          <span></span>
-          <span> </span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+
+        <div className = "center-form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsLIJMlIf9WwGzlGjz8sEQJnT6oysj8jVDz8XppkYhcjzjKA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
-        <ContactCard />
       </div>
-      <div class="visibledevice">
+      <div className="visibledevice">
         <div className="navbar">
           <Link className="logo" to={"/"}>
             BP
@@ -111,7 +72,7 @@ function Contact() {
           <span></span>
           <span> </span>
         </div>
-        <ContactCard />
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsLIJMlIf9WwGzlGjz8sEQJnT6oysj8jVDz8XppkYhcjzjKA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </div>
   );

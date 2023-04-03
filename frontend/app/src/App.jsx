@@ -31,22 +31,22 @@ function App() {
         </Link>
       </div>
       <div className = "bubbles">
-        <span> </span>
         <span></span>
         <span></span>
-        <span> </span>
         <span></span>
         <span></span>
-        <span> </span>
         <span></span>
         <span></span>
-        <span> </span>
         <span></span>
         <span></span>
-        <span> </span>
         <span></span>
         <span></span>
-        <span> </span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
         <span></span>
         <span></span>
         <span></span>
@@ -77,7 +77,7 @@ function App() {
       <h2 className="sub-heading">let's code!</h2>
       </div>
     </div>
-    <div class = "visibledevice">
+    <div className = "visibledevice">
     <div className="navbar">
         <Link className = "logo" to={"/"}>BP</Link>
         <Link className="nav-link" to={"/"}>
@@ -104,10 +104,10 @@ function App() {
       <span> </span>
           <span></span>
           <span></span>
-          <span> </span>
           <span></span>
           <span></span>
-          <span> </span>
+          <span></span>
+          <span></span>
       </div>
       <div className="heading-div">
       <h1 className = "heading">Hi, I'm Brady</h1>

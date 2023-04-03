@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./App.scss";
+import "./Projects.scss";
+import GitHub from "./Github";
 import { Link } from "react-router-dom";
+
 
 function Projects() {
   const [count, setCount] = useState(0);
@@ -28,8 +31,13 @@ function Projects() {
           {" "}
           Contact{" "}
         </Link>
+        
       </div>
-      
+
+      <div className = "construction">
+        <h1>Currently under construction.  Try visiting my <a href="https://github.com/BP-2">GitHub</a> for some projects! </h1>
+      </div>
+
     </div>
 
   );

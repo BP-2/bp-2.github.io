@@ -3,6 +3,7 @@ import "./App.scss";
 import "./AboutMe.scss";
 import { Link } from "react-router-dom";
 import AboutMeCard from "./AboutMeCard";
+import TimeLine from "./TimeLine";
 function About() {
   const [count, setCount] = useState(0);
 
@@ -32,10 +33,11 @@ function About() {
           Contact{" "}
         </Link>
       </div>
-      <div class="screen">
-        <div class="screen-bottom"></div>
+      <div className="screen">
+        <div className="screen-bottom"></div>
       </div>
       <AboutMeCard />
+      <TimeLine/>
     </div>
   );
 }

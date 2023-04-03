@@ -84,7 +84,7 @@ section {
   background-color: white;
 }
 .logo{
-  margin-right: 40%;
+  margin-right: 30%;
   
   padding:1.25%;
   border-radius: 50%;
@@ -155,7 +155,7 @@ section {
 .visibledevice {display:none;}
 .visibledesktop {display:display;}
 
-@media (max-width : 320px) {
+@media (max-width : 500px) {
     .visibledevice {display:block;}
     .visibledesktop {display:none;}
 }

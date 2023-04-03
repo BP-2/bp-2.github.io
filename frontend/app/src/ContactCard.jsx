@@ -1,6 +1,14 @@
 import { useState } from "react";
 import "./ContactCard.css";
 
+
+
+const submit_data = () =>{
+
+}
+
+
+
 function ContactCard() {
   const [count, setCount] = useState(0);
 
@@ -69,7 +77,7 @@ function ContactCard() {
           />
         </div>
         <div className="absolute inset-y-0 right-0 flex items-center"></div>
-        <input class="submit" type="submit" />
+        <input className="submit" type="submit" />
       </div>
     </div>
   );
