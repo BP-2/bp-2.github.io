@@ -38,11 +38,14 @@ function About() {
           <div className="screen-bottom"></div>
         </div>
         <AboutMeCard />
+        <TimeLine />
       </div>
       <div className="visibledevice">
-        <div className="spacer-top"><p> test </p></div>
+        <div className="spacer-top">
+        <TimeLine />
+        </div>
       </div>
-      <TimeLine />
+      
     </div>
   );
 }
