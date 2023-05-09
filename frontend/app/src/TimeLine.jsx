@@ -31,7 +31,7 @@ function TimeLine() {
         <b className="subtitle-two"> Spring Semester </b><br/>
         <ul>
           <li><empty className="subtitle-two">+</empty> Continued fellowship.</li>
-          <li><empty className="subtitle-two">+</empty> Won a couple hackathons. <a className = "timeline-links" href ="https://devpost.com/software/ou-care">here</a> and <a className = "timeline-links" href ="https://devpost.com/software/sustainvr">here</a>.</li>
+          <li><empty className="subtitle-two">+</empty> Won a couple hackathons <a className = "timeline-links" href ="https://devpost.com/software/ou-care">here</a> and <a className = "timeline-links" href ="https://devpost.com/software/sustainvr">there</a>.</li>
           <li><empty className="subtitle-two">+</empty> Began research focused tutorial on Quantum Computing</li>
           <li><empty className="subtitle-two">+</empty> Got invited to present work at <a href = "https://www.ohiosci.org/" className = "timeline-links"> The Ohio Academy of Science </a>, the <a href = "https://highered.ohio.gov/initiatives/affordability/choose-ohio-first" className = "timeline-links">Choose Ohio First Showcase </a>, and the <a href = "https://www.ohio.edu/studentexpo" className = "timeline-links">Ohio University Expo</a>.</li>
           <li><empty className="subtitle-two">+</empty> Here is an <a className = "timeline-links" href ="https://www.ohio.edu/news/2023/03/ohios-choose-ohio-first-scholars-present-ohio-statehouse">article</a> about this semester. </li>
@@ -95,9 +95,3 @@ function TimeLine() {
 
 export default TimeLine;
 
-
-/**
- * Interest in Computer Science originated when I exercised curiosity in programming calculators to do math problems for myself and friends. 
-          Completed a variety of cool projects, including a mobile application to battle addiction that I presented at the <a href = "https://ohiohouse.gov/" className = "timeline-links">Ohio State House</a>.
-        
- */
