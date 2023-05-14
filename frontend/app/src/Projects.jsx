@@ -72,8 +72,8 @@ function Projects() {
         </Link>
       </div>
       <div className="visibledevice">
-      <div className="top-device">
-        <h1 className="overall-heading-device">Here are some projects I have worked on outside of the classroom :)</h1>
+      <div className="top-mobile">
+        <h1 className="overall-heading-mobile">Here are some projects I have worked on outside of the classroom :)</h1>
           <div id="products" class="row list-group">
             <ProjectCard image = {maca} link = "https://brady-phelps.dev/maca-portfolio/" title = "MACA 360 Photo Gallery Site" description = {descriptionMaca} team = {[bp2]}></ProjectCard>
             <ProjectCard image = {oucare} link = "https://ohio-software-development.github.io/hackpalachia-project/" title = "OU Care" description = {descriptionOUCare} team ={[bp2, judeshreffler, GLYurek3]}></ProjectCard>

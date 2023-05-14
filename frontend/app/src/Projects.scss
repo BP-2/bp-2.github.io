@@ -26,7 +26,7 @@
   position: relative;
   left: 20%;
 }
-.top-device{
+.top-mobile{
   margin-top: 25%;
   position: relative;
   left: 20%;
@@ -37,6 +37,13 @@
   -moz-border-radius: 0px;
   border-radius: 0px;
   width: 50%;
+}
+.thumbnail-mobile {
+  margin-bottom: 20px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  width: 70%;
 }
 
 .item.list-group-item {
@@ -86,6 +93,13 @@
   z-index: 1;
 }
 
+.project-title-device {
+  font-weight: 600;
+  font-size: 150%;
+  color: white;
+  z-index: 1;
+}
+
 .project-description{
     font-weight: 340;
   font-size: 125%;
@@ -106,10 +120,10 @@
     font-size: 255%;
     width: 50%;
 }
-.overall-heading-device{
+.overall-heading-mobile{
   color:#ff2d75;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 150%;
     width: 50%;
 }
 
