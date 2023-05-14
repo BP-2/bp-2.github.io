@@ -100,10 +100,15 @@
 }
 
 .project-description{
-    font-weight: 340;
+  font-weight: 340;
   font-size: 125%;
   color: white;
-  z-index: 1;
+}
+.project-description-mobile{
+  font-weight: 340;
+  font-size: 125%;
+  color: white;
+  padding-left:5%;
 }
 
 .title-link:hover{
@@ -112,6 +117,7 @@
 .blue{
     color: #4fc3dc;
 }
+
 
 .overall-heading{
     color:#ff2d75;
@@ -124,7 +130,8 @@
     font-weight: 600;
     font-size: 100%;
     width: 100%;
-    padding-left:10%;
+    padding-left:5%;
+    padding-right:5%;
 }
 
 
