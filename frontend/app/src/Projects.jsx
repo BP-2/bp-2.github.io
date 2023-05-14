@@ -19,7 +19,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   const [count, setCount] = useState(0);
   
-  let descriptionMaca = "Awarded grant to develop an immersive 360-degree experience for Mammoth Cave National Park, aimed at promoting accessibility and raising awareness of the park's natural wonders. This project will also serve as a powerful public relations tool, highlighting the park's unique beauty and historical significance. This was made using React, Vite, GitHub Pages, PanoRaven, Adobe Premier, and GoPro";
+  let descriptionMaca = "Awarded grant to develop an immersive 360-degree experience for Mammoth Cave National Park, aimed at promoting accessibility and raising awareness of the park's natural wonders. This project will also serve as a powerful public relations tool, highlighting the park's unique beauty and historical significance. This was made using React, Vite, GitHub Pages, PanoRaven, Adobe Premier, and GoPro.";
   let descriptionOUCare = "Our winning project at Hackpalachia is aimed to bridge the gap between Ohio University students and healthcare resources. We aim to make healthcare more accessible and user-friendly for students.  Made using Yew, Rust, GitHub pages, Python, JavaScript, Twilio, and Azure.";
   let descriptionGgl = "This project aims to rethink the way users interact with the Google suite by creating a TUI (terminal user interface) interface. With this interface, users can seamlessly manage calendar events, send and read emails, access Gsuite applications, and even perform browser utility functions.  This project is designed to simplify and streamline the user experience, making it easier than ever to navigate the powerful tools available through the Google suite.  Made using Rust, Python, Cursive, Google API, and other libraries.";
   let descriptionSM = "This project brings the social media experience to the terminal. Users can create profiles, make friends, and engage with a variety of content by liking or disliking posts. With the ability to edit their own profile images and descriptions, users can easily express their unique personalities and connect with others who share their interests. This project also features an intuitive profile browsing feature, allowing users to explore a diverse range of profiles and discover new connections.  Made using Rust, Cursive, and the image library.";
@@ -72,11 +72,29 @@ function Projects() {
         </Link>
       </div>
       <div className="visibledevice">
-        <div className="mobile-construction">
-          <h1>
-            Mobile version is currently under construction. Try visiting my{" "}
-            <a href="https://github.com/BP-2">GitHub</a> for some projects!
-          </h1>
+      <div className="top">
+        <h1 className="overall-heading">Here are some projects I have worked on outside of the classroom :)</h1>
+          <div id="products" class="row list-group">
+            <ProjectCard image = {maca} link = "https://brady-phelps.dev/maca-portfolio/" title = "MACA 360 Photo Gallery Site" description = {descriptionMaca} team = {[bp2]}></ProjectCard>
+            <ProjectCard image = {oucare} link = "https://ohio-software-development.github.io/hackpalachia-project/" title = "OU Care" description = {descriptionOUCare} team ={[bp2, judeshreffler, GLYurek3]}></ProjectCard>
+            <p className="project-description"><a className="blue" href = "https://devpost.com/software/ou-care">DevPost</a> </p>
+            <ProjectCard image = {gglTui} link = "https://github.com/ohio-software-development/RustGoogleTUI" title = "Google TUI" description = {descriptionGgl} team = {[bp2, MonadoBarrage, PrestonRembis, AlexBikowski20]}></ProjectCard>
+            <ProjectCard image = {smTui} link = "https://github.com/ohio-software-development/SocialMediaHackathonTui" title = "Social Media TUI" description = {descriptionSM} team = {[bp2, judeshreffler]}></ProjectCard>
+            <ProjectCard image = {multiTh} link = "https://projectboard.world/oas-annual-meeting/project/utilizing-parallelism-and-multithreading-for-iterative-refinement-of-antenna-pattern-visualization" title = "Utilizing Multithreading for the Iterative Refinement of Antenna Pattern Visualization" description = {descriptionMth} team = {[bp2, ChadMourning]}></ProjectCard>
+            <p className="project-description">Presented at: <a className="blue" href = "https://news.ohio.edu/news/2023/03/ohios-choose-ohio-first-scholars-present-ohio-statehouse">The Ohio State House</a> and <a className="blue" href = "https://projectboard.world/oas-annual-meeting/project/utilizing-parallelism-and-multithreading-for-iterative-refinement-of-antenna-pattern-visualization">The Ohio Academy of Science</a></p>
+            <br/>
+            <ProjectCard image = {ssVR} link = "https://github.com/BP-2/SustainVR" title = "Sustain VR" description = {descriptionSSVR} team = {[bp2, WilliamKanieski]}></ProjectCard>
+            <p className="project-description"><a className="blue" href = "https://devpost.com/software/sustainvr">DevPost</a> </p>
+            <ProjectCard image = {parkVR} link = "https://github.com/BP-2/ParkinsonsApp" title = "Parkinsons VR application with Ohio Health" description = {descriptionParkVR} team = {[bp2, drchangliu]}></ProjectCard>
+            <ProjectCard image = {robotAR} link = "https://github.com/BP-2/articulations-robot-demo" title = "AR interface for universal robot controller" description = {descriptionRobot} team = {[bp2, krerkkiat, WilliamKanieski, drchangliu]}></ProjectCard>
+            <ProjectCard image = {reactionVR} link = "https://github.com/BP-2/ReactionApp" title = "Fitness VR application" description = {descriptionReaction} team = {[bp2]}></ProjectCard>
+            <ProjectCard image = {simons} link = "https://github.com/BP-2/SimonsAlgorithm" title = "Interactive Simons Algorithm program" description = {descriptionSimons} team = {[bp2]}></ProjectCard>
+            <ProjectCard image = {teleport} link = "https://github.com/BP-2/QuantumTeleportation" title = "Quantum Teleportation program" description = {descriptionTeleport} team = {[bp2]}></ProjectCard> 
+            <ProjectCard image = {march} link = "https://github.com/BP-2/Quantum-March-Madness" title = "Quantum March Madness" description = {descriptionMarch} team = {[bp2]}></ProjectCard>
+            <br/><br/>
+            <h1 className="overall-heading">For more projects, please visit my <a className = "blue" href="https://github.com/BP-2">GitHub</a>!</h1>
+            <br/><br/>
+          </div>
         </div>
       </div>
       <div className="visibledesktop">
