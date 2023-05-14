@@ -104,7 +104,7 @@ section {
   font-weight: 640;
   font-size: 255%;
   color:white;
-  z-index:1
+  z-index:2;
 }
 .sub-heading{
   margin-left: 5%;
@@ -116,6 +116,7 @@ section {
 .bubbles{
   position:relative;
   display: flex;
+  z-index: 0;
 }
 .bubbles span{
   position: relative;
