@@ -11,7 +11,7 @@ function ProjectCard(props) {
         <div className="mobile-construction">
         <div class="item  col-xs-4 col-lg-4">
           <div class="thumbnail-mobile">
-            <h4 className="project-title"><a className = "title-link" href = {props.link}>{props.title}</a></h4>
+            <h4 className="project-title-mobile"><a className = "title-link" href = {props.link}>{props.title}</a></h4>
             <img className="group list-group-image" src={props.image} alt="" />
             <div class="caption">
               <p class="project-description">
