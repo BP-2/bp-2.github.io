@@ -14,11 +14,11 @@ function ProjectCard(props) {
             <h4 className="project-title-mobile"><a className = "title-link" href = {props.link}>{props.title}</a></h4>
             <img className="group list-group-image" src={props.image} alt="" />
             <div class="caption">
-              <p class="project-description">
+              <p class="project-description-mobile-card">
                 {props.description}
               </p>
               <br/>
-              <p class="project-description">
+              <p class="project-description-mobile-card">
                 Team: {props.team}
               </p>
               <div class="row">
