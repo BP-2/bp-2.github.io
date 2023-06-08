@@ -2,13 +2,6 @@ import { useState } from "react";
 import "./ContactCard.css";
 
 
-
-const submit_data = () =>{
-
-}
-
-
-
 function ContactCard() {
   const [count, setCount] = useState(0);
 

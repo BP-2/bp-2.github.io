@@ -7,13 +7,13 @@ import { getFirestore } from "@firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBUy_xrYmDVzUBUqg8juoTQQmrnNyOGbMs",
-  authDomain: "coach-connect-562cc.firebaseapp.com",
+  apiKey:  import.meta.env.FIREBASE_API_KEY,
+  authDomain: import.meta.env.AUTH_DOMAIN,
   projectId: "coach-connect-562cc",
-  storageBucket: "coach-connect-562cc.appspot.com",
-  messagingSenderId: "285822527748",
-  appId: "1:285822527748:web:6cf3edb42cdea940c9c851",
-  measurementId: "G-6PHB2M7C2Y"
+  storageBucket: import.meta.env.STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.MESSAGE_SENDER_ID,
+  appId: import.meta.env.APP_ID,
+  measurementId: import.meta.env.MEASUREMENT_ID
 };
 
 // Initialize Firebase
@@ -30,6 +30,14 @@ STORAGE_BUCKET = "coach-connect-562cc.appspot.com"
 MESSAGE_SENDER_ID = "285822527748"
 APP_ID = "1:285822527748:web:6cf3edb42cdea940c9c851"
 MEASUREMENT_ID = "G-6PHB2M7C2Y"
+
+apiKey: "AIzaSyBUy_xrYmDVzUBUqg8juoTQQmrnNyOGbMs",
+  authDomain: "coach-connect-562cc.firebaseapp.com",
+  projectId: "coach-connect-562cc",
+  storageBucket: "coach-connect-562cc.appspot.com",
+  messagingSenderId: "285822527748",
+  appId: "1:285822527748:web:6cf3edb42cdea940c9c851",
+  measurementId: "G-6PHB2M7C2Y"
 
 apiKey: import.meta.env.FIREBASE_API_KEY,
   authDomain: import.meta.env.AUTH_DOMAIN,
