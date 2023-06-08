@@ -118,13 +118,13 @@ function Contact() {
               </p>
               <br />
               <p>Name: </p>
-              <input type="text" size="40" ref={dataRefName}></input>
+              <input type="text" size="20" ref={dataRefName}></input>
               <p>Email: </p>{" "}
-              <input type="text" size="40" ref={dataRefEmail}></input>
+              <input type="text" size="20" ref={dataRefEmail}></input>
               <p>Message: </p>
               <textarea
                 rows="5"
-                cols="40"
+                cols="20"
                 className="textarea"
                 ref={dataRefMessage}
               />
