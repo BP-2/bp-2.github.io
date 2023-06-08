@@ -4,8 +4,6 @@ import ContactCard from "./ContactCard";
 import handleSubmit from "./handleSubmit";
 import { useRef } from "react";
 
-
-
 // GOOGLE FORM VARIANT: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsLIJMlIf9WwGzlGjz8sEQJnT6oysj8jVDz8XppkYhcjzjKA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 function Contact() {
@@ -15,11 +13,15 @@ function Contact() {
 
   const submithandler = (e) => {
     e.preventDefault();
-    handleSubmit(dataRefMessage.current.value, dataRefName.current.value, dataRefEmail.current.value);
+    handleSubmit(
+      dataRefMessage.current.value,
+      dataRefName.current.value,
+      dataRefEmail.current.value
+    );
     dataRefMessage.current.value = "";
     dataRefName.current.value = "";
     dataRefEmail.current.value = "";
-  }; 
+  };
   return (
     <div>
       <div className="visibledesktop">
@@ -47,19 +49,31 @@ function Contact() {
             Contact{" "}
           </Link>
         </div>
-        <div className = "center-form">
-        <form onSubmit={submithandler}>
-        <div className="center-items">
-          <p><b>Get in touch!</b></p><br/>
-          <p>Name: </p><input type="text" size="40" ref={dataRefName}></input>
-          <p>Email: </p> <input type="text" size = "40" ref = {dataRefEmail}></input>
-          <p>Message: </p>
-          <textarea rows="5" cols = "40" className="textarea" ref={dataRefMessage} />
-          <br />
-          <br />
-          <button className = "send-button" type="submit">Send</button>
-        </div>
-        </form> 
+        <div className="center-form">
+          <form onSubmit={submithandler}>
+            <div className="center-items">
+              <p>
+                <b>Get in touch!</b>
+              </p>
+              <br />
+              <p>Name: </p>
+              <input type="text" size="40" ref={dataRefName}></input>
+              <p>Email: </p>{" "}
+              <input type="text" size="40" ref={dataRefEmail}></input>
+              <p>Message: </p>
+              <textarea
+                rows="5"
+                cols="40"
+                className="textarea"
+                ref={dataRefMessage}
+              />
+              <br />
+              <br />
+              <button className="send-button" type="submit">
+                Send
+              </button>
+            </div>
+          </form>
         </div>
       </div>
       <div className="visibledevice">
@@ -87,8 +101,31 @@ function Contact() {
             Contact{" "}
           </Link>
         </div>
-        <div className = "center-form-mobile">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsLIJMlIf9WwGzlGjz8sEQJnT6oysj8jVDz8XppkYhcjzjKA/viewform?embedded=true" width="340" height="406" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div className="center-form-mobile">
+          <form onSubmit={submithandler}>
+            <div className="center-items">
+              <p>
+                <b>Get in touch!</b>
+              </p>
+              <br />
+              <p>Name: </p>
+              <input type="text" size="40" ref={dataRefName}></input>
+              <p>Email: </p>{" "}
+              <input type="text" size="40" ref={dataRefEmail}></input>
+              <p>Message: </p>
+              <textarea
+                rows="5"
+                cols="40"
+                className="textarea"
+                ref={dataRefMessage}
+              />
+              <br />
+              <br />
+              <button className="send-button" type="submit">
+                Send
+              </button>
+            </div>
+          </form>{" "}
         </div>
       </div>
     </div>
