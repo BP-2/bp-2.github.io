@@ -74,7 +74,7 @@ function Projects() {
       <div className="visibledevice">
       <div className="top-mobile">
         <h1 className="overall-heading-mobile">Here are some projects I have worked on outside of the classroom :)</h1>
-          <div id="products" class="row list-group">
+          <div class="row list-group">
             <ProjectCard image = {maca} link = "https://brady-phelps.dev/maca-portfolio/" title = "MACA 360 Photo Gallery Site" description = {descriptionMaca} team = {[bp2]}></ProjectCard>
             <ProjectCard image = {oucare} link = "https://ohio-software-development.github.io/hackpalachia-project/" title = "OU Care" description = {descriptionOUCare} team ={[bp2, judeshreffler, GLYurek3]}></ProjectCard>
             <p className="project-description-mobile"><a className="blue" href = "https://devpost.com/software/ou-care">DevPost</a> </p>
@@ -100,7 +100,7 @@ function Projects() {
       <div className="visibledesktop">
         <div className="top">
         <h1 className="overall-heading">Here are some projects I have worked on outside of the classroom :)</h1>
-          <div id="products" class="row list-group">
+          <div className = "bump-left">
             <ProjectCard image = {maca} link = "https://brady-phelps.dev/maca-portfolio/" title = "MACA 360 Photo Gallery Site" description = {descriptionMaca} team = {[bp2]}></ProjectCard>
             <ProjectCard image = {oucare} link = "https://ohio-software-development.github.io/hackpalachia-project/" title = "OU Care" description = {descriptionOUCare} team ={[bp2, judeshreffler, GLYurek3]}></ProjectCard>
             <p className="project-description"><a className="blue" href = "https://devpost.com/software/ou-care">DevPost</a> </p>
