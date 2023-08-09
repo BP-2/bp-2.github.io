@@ -1,10 +1,8 @@
-import { useState } from "react";
 import "./AboutMe.scss";
-import { Link } from "react-router-dom";
 
 function AboutMeCard() {
-  const [count, setCount] = useState(0);
   return (
+    <div className="screen">
     <div className="container">
       <div className="card-three">
        <h1 className = "computer-text">User: <b className="comp-link">Brady Phelps </b></h1>
@@ -13,6 +11,8 @@ function AboutMeCard() {
        <h2 className = "computer-text">College: <b className="comp-link">Ohio University </b></h2>
        <h2 className = "computer-text">Social Media: <a className = "comp-link" href="https://www.linkedin.com/in/brady-phelps-54a374215/"><u>LinkedIn</u></a> <a className = "comp-link" href="https://github.com/BP-2"><u>GitHub</u></a> <a className = "comp-link" href = "mailto: info@brady-phelps.dv"><u>Email</u></a></h2>
       </div>
+    </div>
+    <div className="screen-bottom"></div>
     </div>
   );
 }

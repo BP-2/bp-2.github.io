@@ -34,9 +34,6 @@ function About() {
         </Link>
       </div>
       <div className="visibledesktop">
-        <div className="screen">
-          <div className="screen-bottom"></div>
-        </div>
         <AboutMeCard />
         <TimeLine />
       </div>

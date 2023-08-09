@@ -16,22 +16,8 @@
     z-index: 0;
 }
 
-.card-three{
-    margin-top:28%;
-    background-color: white;
-    position: relative;
-    align-self: center;
-    left: 20%;
-    width: 60%;
-    border-radius: 25px;
-    z-index: 0;
-}
 .comp-link{
     color:lightslategray;
-}
-.heading{
-    margin-left: 5%;
-    margin-top: 5%;
 }
 
 .computer-text{
