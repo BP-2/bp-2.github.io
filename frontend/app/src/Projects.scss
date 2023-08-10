@@ -23,8 +23,6 @@
 
 .top {
   margin-top: 10%;
-  position: relative;
-  left: 20%;
 }
 .top-mobile{
   margin-top: 25%;
@@ -36,6 +34,9 @@
   -moz-border-radius: 0px;
   border-radius: 0px;
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .thumbnail-mobile {
   margin-bottom: 20px;
@@ -109,6 +110,7 @@
   font-weight: 340;
   font-size: 125%;
   color: white;
+  
 }
 .project-description-mobile-card{
   font-weight: 340;
@@ -121,7 +123,21 @@
   color: white;
   padding-left:5%;
 }
-
+.project-select-bar{
+  display:flex;
+  justify-content: space-between;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:1%;
+  margin-bottom:1%;
+}
+.project-button{
+  color:#4fc3dc;
+}
+.project-button:hover{
+  color: #428bca;
+}
 .title-link:hover{
     color: #4fc3dc;
 }
@@ -130,14 +146,17 @@
 }
 
 .bump-left{
-  margin-left: 5%;
+  text-align: center;
+  align-self: center;
 }
 .overall-heading{
     color:#ff2d75;
     font-weight: 640;
     font-size: 255%;
-    width: 50%;
-    
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .overall-heading-mobile{
   color:#ff2d75;
@@ -147,6 +166,3 @@
     padding-left:5%;
     padding-right:5%;
 }
-
-
-
