@@ -24,7 +24,7 @@ function TimeLine() {
         <p className="description">
         <b className="subtitle-two">Fall Semester </b> <br/>
         <ul>
-          <li><empty className="subtitle-two">+</empty> I was recruited to partake in a fellowship which involved a variety of computational topics to improve <a className = "timeline-links" href = "https://ohio-university-ounppm.software.informer.com/">OUNPPM</a>.</li>
+          <li><empty className="subtitle-two">+</empty> Recruited to partake in a fellowship which involved a variety of computational topics to improve <a className = "timeline-links" href = "https://ohio-university-ounppm.software.informer.com/">OUNPPM</a>.</li>
           <li><empty className="subtitle-two">+</empty> Founded the <a className = "timeline-links" href = "https://github.com/ohio-software-development">Ohio University Software Development Club</a>.</li>
         </ul>
         <br/>
@@ -40,6 +40,7 @@ function TimeLine() {
         <b className="subtitle-two"> Summer </b><br/>
         <ul>
           <li><empty className="subtitle-two">+</empty> Accepted NSF funded REU position on<a className = "timeline-links" href = "https://khan.engr.uconn.edu/reu_site/"> Quantum Cryptography at UCONN</a>.</li>
+          <li><empty className="subtitle-two">+</empty> Awarded grant to create fitness watch application (in progress).</li>
         </ul>
         </p>
       </div>
