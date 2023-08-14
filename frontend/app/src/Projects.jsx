@@ -44,11 +44,58 @@ function Projects() {
       <div className="visibledevice">
       <div className="top-mobile">
         <h1 className="overall-heading-mobile">Here are some projects I have worked on outside of the classroom :)</h1>
-          <div class="row list-group">
-            <AllProjects/>
-            <h1 className="overall-heading">For more projects, please visit my <a className = "blue" href="https://github.com/BP-2">GitHub</a>!</h1>
+        <form>
+        <div className="project-select-bar">
+        <button
+                className="project-button"
+                onClick={() => handleCategoryChange("all")}
+              >
+                Highlights
+              </button>
+          <button
+                className="project-button"
+                onClick={() => handleCategoryChange("quantum")}
+              >
+                Quantum
+              </button>
+              <button
+                className="project-button"
+                onClick={() => handleCategoryChange("vr")}
+              >
+                VR
+              </button>
+              <button
+                className="project-button"
+                onClick={() => handleCategoryChange("web")}
+              >
+                Web
+              </button>
+              <button
+                className="project-button"
+                onClick={() => handleCategoryChange("research")}
+              >
+                Research
+              </button>
+              <button
+                className="project-button"
+                onClick={() => handleCategoryChange("other")}
+              >
+                Other
+              </button>
+          </div>
+        </form>
+          <div className = "bump-left">
+          {selectedCategory === "all" && <AllProjects />}
+            {selectedCategory === "quantum" && <QuantumProjects />}
+            {selectedCategory === "vr" && <VRProjects />}
+            {selectedCategory === "web" && <WebProjects />}
+            {selectedCategory == "research" && <ResearchProjects/>}
+            {selectedCategory == "other" && <OtherProjects/>}
+
             <br/><br/>
           </div>
+          <h1 className="overall-heading">For more projects, please visit my <a className = "blue" href="https://github.com/BP-2">GitHub</a>!</h1>
+            <br/><br/>
         </div>
       </div>
       <div className="visibledesktop">
