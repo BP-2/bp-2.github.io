@@ -64,6 +64,8 @@ function Projects() {
               >
                 VR
               </button>
+              </div>
+              <div className="project-select-bar">
               <button
                 className="project-button"
                 onClick={() => handleCategoryChange("web")}
