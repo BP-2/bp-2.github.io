@@ -13,6 +13,7 @@ import reactionVR from "./assets/reactionVR.png"
 import simons from "./assets/simons.png"
 import teleport from "./assets/teleport.png"
 import march from "./assets/march.png"
+import exchange from "./assets/exchange.png"
 
 function AllProjects() {
 
@@ -28,6 +29,7 @@ function AllProjects() {
   let descriptionSimons = "This program uses the popular quantum algorithm Simons Algorithm to create an interactable program that users can input a bitstring into and see the algorithm create a circuit that computes the 2-1 pairs given the input bitstring.  This allows those learning quantum computing to see an example in which they can interact with.  Made using Python and Qiskit.";
   let descriptionTeleport = "This program performs quantum teleportation in a way which engages the user.  It asks for an origin bit, target bit, and a value to teleport.  It will then run the circuit and display the results to the terminal.  This allows those learning quantum computing to see an example in which they can interact with.  Made with Python and Qiskit.";
   let descriptionMarch = "This program uses the quantum hadamard gate and basic laws of probability to create march madness brackets using historical probabilities to guide the bracket.  Made using Python and Qiskit.";
+  let descriptionNetwork = "Series of simulations constructed to predict affects of noise in linear and parallel quantum networks. Also simulations included to model key exchange handoffs and the affect of noise in a variety of protocols (primarily entanglement based BB84). Some of included simulations were done to experimentally prove the loss of ciphertext in failed key handoffs.  ";
   let bp2 = <a href = "https://github.com/BP-2" className="blue">BP-2</a>;
   let judeshreffler = <a href = "https://github.com/jude-shreffler" className="blue">, jude-shreffler</a>;
   let GLYurek3 = <a href = "https://github.com/GLYurek3" className="blue">, GLYurek3</a>;
@@ -45,10 +47,12 @@ function AllProjects() {
             <ProjectCard image = {gglTui} link = "https://github.com/ohio-software-development/RustGoogleTUI" title = "Google TUI" description = {descriptionGgl} team = {[bp2, MonadoBarrage, PrestonRembis, AlexBikowski20]}></ProjectCard>
             <ProjectCard image = {multiTh} link = "https://projectboard.world/oas-annual-meeting/project/utilizing-parallelism-and-multithreading-for-iterative-refinement-of-antenna-pattern-visualization" title = "Utilizing Multithreading for the Iterative Refinement of Antenna Pattern Visualization" description = {descriptionMth} team = {[bp2, ChadMourning]}></ProjectCard>
             <p className="project-description">Presented at: <a className="blue" href = "https://news.ohio.edu/news/2023/03/ohios-choose-ohio-first-scholars-present-ohio-statehouse">The Ohio State House</a> and <a className="blue" href = "https://projectboard.world/oas-annual-meeting/project/utilizing-parallelism-and-multithreading-for-iterative-refinement-of-antenna-pattern-visualization">The Ohio Academy of Science</a></p>
+            <p className="project-description">To be presented at <a className="blue" href = "https://osgc.org/">NASA</a> and <a className="blue" href = "https://www.aiaa.org/SciTech">AIAA SciTech</a></p>
+
             <br/>
             
             <ProjectCard image = {parkVR} link = "https://github.com/BP-2/ParkinsonsApp" title = "Parkinsons VR/AR application with Ohio Health" description = {descriptionParkVR} team = {[bp2, drchangliu]}></ProjectCard>
-            <ProjectCard image = {march} link = "https://github.com/BP-2/Quantum-March-Madness" title = "Quantum March Madness" description = {descriptionMarch} team = {[bp2]}></ProjectCard>
+            <ProjectCard image = {exchange} title = "Quantum Network Simulations" description = {descriptionNetwork} team = {[bp2]}></ProjectCard>
             
         </div>
 
