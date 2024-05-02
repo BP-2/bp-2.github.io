@@ -3,6 +3,7 @@ import "./App.scss";
 import linkdin from "./assets/linkedin2.png";
 import github from "./assets/github-trans.png";
 import { Link } from "react-router-dom";
+import Deploy from "open-web-ay";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -105,6 +106,8 @@ function App() {
       </div>
       </div>
     </div>
+    <Deploy theme='red'/>
+
     </div>
   );
 }
