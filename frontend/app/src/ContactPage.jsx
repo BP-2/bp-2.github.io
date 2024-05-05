@@ -2,39 +2,39 @@ import "./App.scss";
 import { Link } from "react-router-dom";
 import handleSubmit from "./handleSubmit";
 import ContactCard from "./ContactCard";
-import { useRef, useState} from "react";
+import { useRef, useState } from "react";
 import Deploy from "open-web-ay";
+import emailjs from "@emailjs/browser";
 
 // GOOGLE FORM VARIANT: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsLIJMlIf9WwGzlGjz8sEQJnT6oysj8jVDz8XppkYhcjzjKA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 function Contact() {
-  const dataRefMessage = useRef();
-  const dataRefEmail = useRef();
-  const dataRefName = useRef();
-
+  const form = useRef();
   const submithandler = (e) => {
     e.preventDefault();
-    handleSubmit(
-      dataRefMessage.current.value,
-      dataRefName.current.value,
-      dataRefEmail.current.value
-    );
-    dataRefMessage.current.value = "",
-    dataRefName.current.value = "",
-    dataRefEmail.current.value = ""
-    alert("Thanks for reaching out!  Your response has been recorded. :)");
-
+      try{
+      emailjs
+        .sendForm(
+          "service_97c8c66",
+          "template_42ed68m",
+          form.current, {
+          publicKey:"O_5oHo3Aff8RX-TCf"})
+        .then(
+          (result) => {
+            console.log("SUCCESS");
+          },
+          (error) => {
+            console.log("FAIL");
+          }
+        );
+        alert("Thanks for reaching out!  Your response has been recorded. :)");
+      }
+      catch{
+      alert("An issue has occurred with emailJS. Please reach me directly at bradyDummy@gmail.com.");
+      }
   };
 
-  const setName = (e) =>{
-    dataRefName.current.value = e.target.value;
-  }
-  const setMail = (e) =>{
-    dataRefEmail.current.value = e.target.value;
-  }
-  const setMessage = (e) =>{
-    dataRefMessage.current.value = e.target.value;
-  }
+
 
   return (
     <div>
@@ -64,21 +64,37 @@ function Contact() {
           </Link>
         </div>
         <div className="center-form">
-          <form onSubmit={submithandler}>
+          <form ref={form} onSubmit={submithandler}>
             <div className="center-items">
               <p>
                 <b>Get in touch!</b>
               </p>
               <br />
               <p>Name: </p>
-              <input type="text" size="40" ref = {dataRefName} onChange= {e => setName(e)}></input>
+              <input
+                type="text"
+                size="40"
+                name="user_name"
+                onChange={(e) => setName(e)}
+              ></input>
               <p>Email: </p>{" "}
-              <input type="text" size="40" ref ={dataRefEmail} onChange= {e => setMail(e)}></input>
+              <input
+                size="40"
+                type="email" 
+                name="user_email"
+                onChange={(e) => setMail(e)}
+              ></input>
               <p>Message: </p>
-              <textarea rows="5" cols="40" className="textarea" ref={dataRefMessage} onChange= {e => setMessage(e)}/>
+              <textarea
+                rows="5"
+                cols="40"
+                className="textarea"
+                name="message"
+                onChange={(e) => setMessage(e)}
+              />
               <br />
               <br />
-              <button className="send-button" type="submit">
+              <button className="send-button" type="submit" value="Send" >
                 Send
               </button>
             </div>
@@ -111,33 +127,35 @@ function Contact() {
           </Link>
         </div>
         <div className="center-form-mobile">
-          <form onSubmit={submithandler}>
+          <form ref={form} onSubmit={submithandler}>
             <div className="center-items">
               <p>
                 <b>Get in touch!</b>
               </p>
               <br />
               <p>Name: </p>
-              <input type="text" size="25" ref={dataRefName}></input>
+              <input type="text" size="25" name="user_name"></input>
               <p>Email: </p>{" "}
-              <input type="text" size="25" ref={dataRefEmail}></input>
+              <input size="25" 
+                type="email" 
+                name="user_email"></input>
               <p>Message: </p>
               <textarea
                 rows="5"
                 cols="25"
                 className="textarea"
-                ref={dataRefMessage}
+                name="message"
               />
               <br />
               <br />
-              <button className="send-button" type="submit">
+              <button className="send-button" type="submit" value="Send">
                 Send
               </button>
             </div>
           </form>{" "}
         </div>
       </div>
-      <Deploy theme="orange"/>
+      <Deploy theme="orange" />
     </div>
   );
 }

@@ -6,7 +6,7 @@ function ContactCard() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="card">
+    <div className="card-contact">
       <div className="content-stuff">
       <label
           htmlFor="title"
