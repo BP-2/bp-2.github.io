@@ -8,6 +8,7 @@ import VRProjects from "./VRProjects";
 import WebProjects from "./WebProjects";
 import ResearchProjects from "./ResearchProjects";
 import OtherProjects from "./OtherProjects";
+import Deploy from "open-web-ay";
 
 function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -157,6 +158,7 @@ function Projects() {
             <br/><br/>
         </div>
       </div>
+      <Deploy theme='orange'/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import "./AboutMe.scss";
-
+import Deploy from "open-web-ay";
 function AboutMeCard() {
   return (
     <div className="screen">
@@ -13,7 +13,9 @@ function AboutMeCard() {
       </div>
     </div>
     <div className="screen-bottom"></div>
+    <Deploy theme="orange"/>
     </div>
+
   );
 }
 

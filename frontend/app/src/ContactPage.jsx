@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import handleSubmit from "./handleSubmit";
 import ContactCard from "./ContactCard";
 import { useRef, useState} from "react";
-
+import Deploy from "open-web-ay";
 
 // GOOGLE FORM VARIANT: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScsLIJMlIf9WwGzlGjz8sEQJnT6oysj8jVDz8XppkYhcjzjKA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
@@ -137,6 +137,7 @@ function Contact() {
           </form>{" "}
         </div>
       </div>
+      <Deploy theme="orange"/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./TimeLine.scss";
 import { Link } from "react-router-dom";
-
+import Deploy from "open-web-ay";
 function TimeLine() {
   return (
     <div className="row">
@@ -272,6 +272,7 @@ function TimeLine() {
           </h1>
         </div>
       </div>
+      <Deploy theme="orange"/>
 
       <span className="spacer"></span>
     </div>

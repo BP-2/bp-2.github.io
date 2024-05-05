@@ -104,7 +104,7 @@ section {
   font-weight: 640;
   font-size: 255%;
   color:white;
-  z-index:2;
+  z-index:1;
 }
 .sub-heading{
   font-size: 155%;
@@ -170,7 +170,7 @@ section {
 
 
 .visibledevice {display:none;}
-.visibledesktop {display:display;}
+.visibledesktop {display:block}
 
 @media (max-width : 500px) {
     .visibledevice {display:block;}
