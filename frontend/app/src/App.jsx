@@ -12,7 +12,7 @@ function App() {
     <div>
     <div className="visibledesktop">
       <div className="navbar">
-        <Link className = "logo" to={"/"}>BP</Link>
+        <Link className = "site-logo" to={"/"}>BP</Link>
         <Link className="nav-link" to={"/"}>
           {" "}
           Home{" "}
@@ -63,7 +63,7 @@ function App() {
     </div>
     <div className = "visibledevice">
     <div className="navbar">
-        <Link className = "logo" to={"/"}>BP</Link>
+        <Link className = "site-logo" to={"/"}>BP</Link>
         <Link className="nav-link" to={"/"}>
           {" "}
           Home{" "}

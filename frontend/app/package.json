@@ -14,7 +14,7 @@
     "dotenv": "^16.1.4",
     "emailjs": "^4.0.3",
     "firebase": "^9.22.1",
-    "open-web-ay": "^0.0.37",
+    "open-web-ay": "^0.0.39",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0"

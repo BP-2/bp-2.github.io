@@ -76,7 +76,7 @@ function Contact() {
     <div>
       <div className="visibledesktop">
         <div className="navbar">
-          <Link className="logo" to={"/"}>
+          <Link className="site-logo" to={"/"}>
             BP
           </Link>
           <Link className="nav-link" to={"/"}>
@@ -139,7 +139,7 @@ function Contact() {
       </div>
       <div className="visibledevice">
         <div className="navbar">
-          <Link className="logo" to={"/"}>
+          <Link className="site-logo" to={"/"}>
             BP
           </Link>
           <Link className="nav-link" to={"/"}>

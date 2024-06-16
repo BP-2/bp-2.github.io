@@ -6,12 +6,57 @@ function TimeLine() {
   return (
     <div className="row">
       <div className="main-timeline">
-        <h1 className="title-wrap"> History of employment... </h1>
+        <h1 className="title-wrap"> History of cool things... </h1>
         <div className="timeline">
           <div className="timeline-content">
             <div className="timeline-year">2023</div>
             <h3 className="title">Junior Year</h3>
-            <p className="description">To be determined... :)</p>
+            <b className="subtitle-one">Fall Semester </b> <br />
+            <ul>
+              <li>
+                <empty>+ Launched project to secure avionics systems with quantum networks and was awarded $5,000 in grants. </empty>
+              </li>
+              <li>
+                <empty>+ Awarded $3,500 from the Ohio Space Grant Consortium for aviation/space research.</empty>
+              </li>
+              <li>
+              <empty>+ Presented {" "}
+                  <a
+                    className="timeline-links"
+                    href="https://arc.aiaa.org/doi/abs/10.2514/6.2024-0163"
+                  >
+                    multithreaded graphics optimization of antenna patterns
+                  </a> at the international  {" "}
+                  <a
+                    className="timeline-links"
+                    href="https://www.aiaa.org/events-learning/event/2024/01/08/default-calendar/2024-aiaa-science-and-technology-forum-and-exposition-%28aiaa-scitech-forum%29?SSO=Y"
+                  > AIAA SciTech</a> conference in Orlando Florida, and published my first paper!</empty> 
+              </li>
+            </ul>
+            <b className="subtitle-one">Spring Semester </b> <br />
+            <ul>
+              <li>
+                <empty>+ Presented research at regional conferences such as the Ohio Space Grant Consortium, Choose Ohio First Showcase,  and the Ohio Supercomputer research symposium. </empty>
+              </li>
+              <li>
+              <empty>+ Presented at the AIAA Regional Student Research Competition where my paper took 2nd place in the overall competition and was published in the proceedings. </empty>
+              </li>
+              <li>
+              <empty>+ Presented at the international ICNS conference in Washington D.C. on my work with quantum in aviation security. This paper was also published in the proceedings.</empty>
+              </li>
+              <li>
+                <empty>+ Winner of the BlossomHack with my open-web-ay accessibility package which currently has 1.8k downloads.</empty>
+              </li>
+              <li>
+                <empty>+ AIAA Digital Avionics Technical Committee Award.</empty>
+              </li>
+              <li>
+                <empty>+ Goldwater Scholar recipient.</empty>
+              </li>
+              <li>
+                <empty>+ Accepted internship at NASA.</empty>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="timeline">
@@ -272,7 +317,7 @@ function TimeLine() {
           </h1>
         </div>
       </div>
-      <Deploy theme="orange"/>
+      <Deploy theme="orange" />
 
       <span className="spacer"></span>
     </div>

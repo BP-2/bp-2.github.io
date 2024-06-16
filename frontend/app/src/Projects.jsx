@@ -19,7 +19,7 @@ function Projects() {
   return (
     <div>
       <div className="navbar">
-        <Link className="logo" to={"/"}>
+        <Link className="site-logo" to={"/"}>
           BP
         </Link>
         <Link className="nav-link" to={"/"}>
