@@ -43,16 +43,14 @@ function AllProjects() {
 
     return (
         <div>
-            <ProjectCard image = {maca} link = "https://brady-phelps.dev/maca-portfolio/" title = "MACA 360 Photo Gallery Site" description = {descriptionMaca} team = {[bp2]}></ProjectCard>
+            <ProjectCard image = {exchange} title = "Quantum Network Simulations" description = {descriptionNetwork} team = {[bp2]}></ProjectCard>
             <ProjectCard image = {gglTui} link = "https://github.com/ohio-software-development/RustGoogleTUI" title = "Google TUI" description = {descriptionGgl} team = {[bp2, MonadoBarrage, PrestonRembis, AlexBikowski20]}></ProjectCard>
             <ProjectCard image = {multiTh} link = "https://projectboard.world/oas-annual-meeting/project/utilizing-parallelism-and-multithreading-for-iterative-refinement-of-antenna-pattern-visualization" title = "Utilizing Multithreading for the Iterative Refinement of Antenna Pattern Visualization" description = {descriptionMth} team = {[bp2, ChadMourning]}></ProjectCard>
             <p className="project-description">Presented at: <a className="blue" href = "https://news.ohio.edu/news/2023/03/ohios-choose-ohio-first-scholars-present-ohio-statehouse">The Ohio State House</a> and <a className="blue" href = "https://projectboard.world/oas-annual-meeting/project/utilizing-parallelism-and-multithreading-for-iterative-refinement-of-antenna-pattern-visualization">The Ohio Academy of Science</a></p>
             <p className="project-description">To be presented at <a className="blue" href = "https://osgc.org/">NASA</a> and <a className="blue" href = "https://www.aiaa.org/SciTech">AIAA SciTech</a></p>
-
-            <br/>
-            
             <ProjectCard image = {parkVR} link = "https://github.com/BP-2/ParkinsonsApp" title = "Parkinsons VR/AR application with Ohio Health" description = {descriptionParkVR} team = {[bp2, drchangliu]}></ProjectCard>
-            <ProjectCard image = {exchange} title = "Quantum Network Simulations" description = {descriptionNetwork} team = {[bp2]}></ProjectCard>
+            <ProjectCard image = {maca} link = "https://brady-phelps.dev/maca-portfolio/" title = "MACA 360 Photo Gallery Site" description = {descriptionMaca} team = {[bp2]}></ProjectCard>
+            
             
         </div>
 

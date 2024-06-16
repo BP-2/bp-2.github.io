@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.scss";
 import linkdin from "./assets/linkedin2.png";
 import github from "./assets/github-trans.png";
+import scholar from "./assets/scholar.png";
 import { Link } from "react-router-dom";
 import Deploy from "open-web-ay";
 
@@ -58,6 +59,7 @@ function App() {
       <div className="logo-display">
       <a href = "https://www.linkedin.com/in/brady-phelps-54a374215/"><img src = {linkdin} className="logo-links"></img></a>
       <a href = "https://github.com/BP-2"><img src = {github} className="logo-links"></img></a>
+      <a href = "https://scholar.google.com/citations?user=F0cpYusAAAAJ&hl=en&oi=ao"><img src = {scholar} className="logo-links"></img></a>
       </div>
       </div>
     </div>
@@ -98,6 +100,7 @@ function App() {
       <div className="logo-display">
       <a href = "https://www.linkedin.com/in/brady-phelps-54a374215/"><img src = {linkdin} className="logo-links"></img></a>
       <a href = "https://github.com/BP-2"><img src = {github} className="logo-links"></img></a>
+      <a href = "https://scholar.google.com/citations?user=F0cpYusAAAAJ&hl=en&oi=ao"><img src = {scholar} className="logo-links"></img></a>
       </div>
       </div>
     </div>

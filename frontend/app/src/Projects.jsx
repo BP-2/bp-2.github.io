@@ -45,7 +45,7 @@ function Projects() {
       </div>
       <div className="visibledevice">
       <div className="top-mobile">
-        <h1 className="overall-heading-mobile">Here are some projects I have worked on outside of the classroom :)</h1>
+        <h1 className="overall-heading-mobile">Here are some of my projects :)</h1>
         <form>
         <div className="project-select-bar">
         <button
@@ -76,12 +76,6 @@ function Projects() {
               </button>
               <button
                 className="project-button"
-                onClick={() => handleCategoryChange("research")}
-              >
-                Research
-              </button>
-              <button
-                className="project-button"
                 onClick={() => handleCategoryChange("other")}
               >
                 Other
@@ -104,7 +98,7 @@ function Projects() {
       </div>
       <div className="visibledesktop">
         <div className="top">
-        <h1 className="overall-heading">Here are some projects I have worked on outside of the classroom :)</h1>
+        <h1 className="overall-heading">Here are some of my projects :)</h1>
         <form>
         <div className="project-select-bar">
         <button
@@ -123,19 +117,13 @@ function Projects() {
                 className="project-button"
                 onClick={() => handleCategoryChange("vr")}
               >
-                VR
+                Visualizations
               </button>
               <button
                 className="project-button"
                 onClick={() => handleCategoryChange("web")}
               >
                 Web
-              </button>
-              <button
-                className="project-button"
-                onClick={() => handleCategoryChange("research")}
-              >
-                Research
               </button>
               <button
                 className="project-button"
