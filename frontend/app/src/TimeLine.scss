@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
+.nasa-logo {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: -200px; 
+}
+.uconn-logo {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: -200px; 
+}
 
 .row {
   max-width: 1200px;

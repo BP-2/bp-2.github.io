@@ -2,6 +2,10 @@ import { useState } from "react";
 import "./TimeLine.scss";
 import { Link } from "react-router-dom";
 import Deploy from "open-web-ay";
+import nasa from "./assets/nasa.png";
+import uconn from "./assets/uconn.png";
+import npLogo from "./assets/npLogo.png";
+import pgLogo from "./assets/pgLogo.png";
 function TimeLine() {
   return (
     <div className="row">
@@ -10,6 +14,7 @@ function TimeLine() {
         <div className="timeline">
           <div className="timeline-content">
             <div className="timeline-year">2023</div>
+            <img src={nasa} alt="NASA Logo" className="nasa-logo" />
             <h3 className="title">Junior Year</h3>
             <b className="subtitle-one">Fall Semester </b> <br />
             <ul>
@@ -62,6 +67,7 @@ function TimeLine() {
         <div className="timeline">
           <div className="timeline-content">
             <div className="timeline-year">2022 </div>
+            <img src={uconn} className="uconn-logo"></img>
             <h3 className="title"> Sophomore Year</h3>
             <p className="description">
               <b className="subtitle-two">Fall Semester </b> <br />
@@ -179,6 +185,7 @@ function TimeLine() {
         </div>
         <div className="timeline">
           <div className="timeline-content">
+          <img src={npLogo} className="nasa-logo"></img>
             <div className="timeline-year">2021</div>
             <h3 className="title">Freshman Year </h3>
             <p>
@@ -269,6 +276,8 @@ function TimeLine() {
         </div>
         <div className="timeline">
           <div className="timeline-content">
+           <img src={pgLogo} className="uconn-logo"></img>
+
             <div className="timeline-year">2020</div>
             <h3 className="title">High School</h3>
             <b className="subtitle-four">2017-2021</b>
