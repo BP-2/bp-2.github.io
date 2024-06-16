@@ -68,10 +68,10 @@ function TimeLine() {
 
 
             </ul>
-            <b className="subtitle-one">Blasting off! </b> <br />
+            <b className="subtitle-one">Blasting Off! </b> <br />
             <ul>
             <li>
-                <empty>+ Accepted internship at NASA working on modelling and simulation for space communications and landings.</empty>
+                <empty>+ Accepted internship at NASA Glenn, working on modelling and simulation for space communications and lunar landings.</empty>
               </li>
             </ul>
 
