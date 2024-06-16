@@ -14,6 +14,7 @@ function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const handleCategoryChange = (category) => {
+    event.preventDefault();
     setSelectedCategory(category);
   };
   return (
