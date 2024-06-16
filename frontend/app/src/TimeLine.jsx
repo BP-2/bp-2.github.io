@@ -16,14 +16,8 @@ function TimeLine() {
             <div className="timeline-year">2023</div>
             <img src={nasa} alt="NASA Logo" className="nasa-logo" />
             <h3 className="title">Junior Year</h3>
-            <b className="subtitle-one">Fall Semester </b> <br />
+            <b className="subtitle-one">Research Presentations & Papers</b> <br />
             <ul>
-              <li>
-                <empty>+ Launched project to secure avionics systems with quantum networks and was awarded $5,000 in grants. </empty>
-              </li>
-              <li>
-                <empty>+ Awarded $3,500 from the Ohio Space Grant Consortium for aviation/space research.</empty>
-              </li>
               <li>
               <empty>+ Presented {" "}
                   <a
@@ -37,31 +31,50 @@ function TimeLine() {
                     href="https://www.aiaa.org/events-learning/event/2024/01/08/default-calendar/2024-aiaa-science-and-technology-forum-and-exposition-%28aiaa-scitech-forum%29?SSO=Y"
                   > AIAA SciTech</a> conference in Orlando Florida, and published my first paper!</empty> 
               </li>
+              <li>
+              <empty>+ Presented at the international <a className="timeline-links" href="https://ieeexplore.ieee.org/abstract/document/10550471">ICNS</a> conference in Washington D.C. on my work with quantum in aviation security. This paper was also published.</empty>
+              </li>
+              <li>
+              <empty>+ Presented at the AIAA Regional Student Research Competition where my paper took <a className="timeline-links" href="https://www.aiaa.org/news/news/2024/05/07/aiaa-announces-2024-regional-student-conference-winners">2nd place</a> in the overall competition and was published. </empty>
+              </li>
+              <li>
+                <empty>+ Presented additional research at regional conferences such as the Ohio Space Grant Consortium, Choose Ohio First Showcase,  and the Ohio Supercomputer research symposium. </empty>
+              </li>
             </ul>
-            <b className="subtitle-one">Spring Semester </b> <br />
+            <b className="subtitle-one">Additional Research Grants & Awards </b> <br />
             <ul>
               <li>
-                <empty>+ Presented research at regional conferences such as the Ohio Space Grant Consortium, Choose Ohio First Showcase,  and the Ohio Supercomputer research symposium. </empty>
+                <empty>+ Awarded grant from the Ohio Space Grant Consortium and NASA for aviation/space research.</empty>
               </li>
               <li>
-              <empty>+ Presented at the AIAA Regional Student Research Competition where my paper took 2nd place in the overall competition and was published in the proceedings. </empty>
+                <empty>+ Awarded <a href="https://www.ohio.edu/news/2024/05/ohio-students-honored-student-enhancement-awards" className="timeline-links">student enhancement grant</a> for virtual quantum laboratory project.</empty>
               </li>
               <li>
-              <empty>+ Presented at the international ICNS conference in Washington D.C. on my work with quantum in aviation security. This paper was also published in the proceedings.</empty>
-              </li>
-              <li>
-                <empty>+ Winner of the BlossomHack with my open-web-ay accessibility package which currently has 1.8k downloads.</empty>
+                <empty>+ Accepted fellowship for quantum applications in avionics. </empty>
               </li>
               <li>
                 <empty>+ AIAA Digital Avionics Technical Committee Award.</empty>
               </li>
               <li>
-                <empty>+ Goldwater Scholar recipient.</empty>
+                <empty>+ <a className="timeline-links" href="https://www.ohio.edu/news/2024/05/four-ohio-university-students-awarded-prestigious-2024-goldwater-scholarship">Goldwater Scholar</a> recipient.</empty>
+              </li>
+
+              <li>
+                <empty>+ Winner of BlossomHack 2024 with my <a href="https://www.npmjs.com/package/open-web-ay" className="timeline-links">open-web-ay</a> accessibility package which currently has >2k downloads.</empty>
               </li>
               <li>
-                <empty>+ Accepted internship at NASA.</empty>
+                <empty>+ Winner of the Electrical Engineering and Computer Science division at the <a className="timeline-links" href="https://www.ohio.edu/studentexpo">Ohio University Research Expo</a>. </empty>
+              </li>
+
+
+            </ul>
+            <b className="subtitle-one">Blasting off! </b> <br />
+            <ul>
+            <li>
+                <empty>+ Accepted internship at NASA working on modelling and simulation for space communications and landings.</empty>
               </li>
             </ul>
+
           </div>
         </div>
         <div className="timeline">
@@ -70,12 +83,10 @@ function TimeLine() {
             <img src={uconn} className="uconn-logo"></img>
             <h3 className="title"> Sophomore Year</h3>
             <p className="description">
-              <b className="subtitle-two">Fall Semester </b> <br />
+              <b className="subtitle-two">Research </b> <br />
               <ul>
                 <li>
-                  <empty className="subtitle-two">+</empty> Recruited to partake
-                  in a fellowship which involved a variety of computational
-                  topics to improve{" "}
+                  <empty className="subtitle-two">+</empty> Accepted research fellowship position working on {" "}
                   <a
                     className="timeline-links"
                     href="https://ohio-university-ounppm.software.informer.com/"
@@ -85,45 +96,8 @@ function TimeLine() {
                   .
                 </li>
                 <li>
-                  <empty className="subtitle-two">+</empty> Founded the{" "}
-                  <a
-                    className="timeline-links"
-                    href="https://github.com/ohio-software-development"
-                  >
-                    Ohio University Software Development Club
-                  </a>
-                  .
-                </li>
-              </ul>
-              <br />
-              <b className="subtitle-two"> Spring Semester </b>
-              <br />
-              <ul>
-                <li>
-                  <empty className="subtitle-two">+</empty> Continued
-                  fellowship.
-                </li>
-                <li>
-                  <empty className="subtitle-two">+</empty> Won a couple
-                  hackathons{" "}
-                  <a
-                    className="timeline-links"
-                    href="https://devpost.com/software/ou-care"
-                  >
-                    here
-                  </a>{" "}
-                  and{" "}
-                  <a
-                    className="timeline-links"
-                    href="https://devpost.com/software/sustainvr"
-                  >
-                    there
-                  </a>
-                  .
-                </li>
-                <li>
-                  <empty className="subtitle-two">+</empty> Began research
-                  focused tutorial on Quantum Computing
+                  <empty className="subtitle-two">+</empty> Awarded grant to
+                  create fitness HCI application.
                 </li>
                 <li>
                   <empty className="subtitle-two">+</empty> Got invited to
@@ -148,19 +122,55 @@ function TimeLine() {
                   </a>
                   .
                 </li>
+
+              </ul>
+              
+              <br />
+              <b className="subtitle-two"> Other fun </b>
+              <br />
+              <ul>
+              <li>
+                  <empty className="subtitle-two">+</empty> Founded the{" "}
+                  <a
+                    className="timeline-links"
+                    href="https://github.com/ohio-software-development"
+                  >
+                    Ohio University Software Development Club
+                  </a>
+                  .
+                </li>
                 <li>
-                  <empty className="subtitle-two">+</empty> Here is an{" "}
+                  <empty className="subtitle-two">+</empty> Won a couple
+                  hackathons{" "}
+                  <a
+                    className="timeline-links"
+                    href="https://devpost.com/software/ou-care"
+                  >
+                    here
+                  </a>{" "}
+                  and{" "}
+                  <a
+                    className="timeline-links"
+                    href="https://devpost.com/software/sustainvr"
+                  >
+                    there
+                  </a>
+                  .
+                </li>
+
+                <li>
+                  <empty className="subtitle-two">+</empty>Had an{" "}
                   <a
                     className="timeline-links"
                     href="https://www.ohio.edu/news/2023/03/ohios-choose-ohio-first-scholars-present-ohio-statehouse"
                   >
                     article
                   </a>{" "}
-                  about this semester.{" "}
+                  on some things from the semester.{" "}
                 </li>
               </ul>
               <br />
-              <b className="subtitle-two"> Summer </b>
+              <b className="subtitle-two"> Headed to Connecticut </b>
               <br />
               <ul>
                 <li>
@@ -175,10 +185,6 @@ function TimeLine() {
                   </a>
                   .
                 </li>
-                <li>
-                  <empty className="subtitle-two">+</empty> Awarded grant to
-                  create fitness watch application (in progress).
-                </li>
               </ul>
             </p>
           </div>
@@ -189,7 +195,7 @@ function TimeLine() {
             <div className="timeline-year">2021</div>
             <h3 className="title">Freshman Year </h3>
             <p>
-              <b className="subtitle-three">Fall Semester </b>
+              <b className="subtitle-three">Scholarship & Education </b>
             </p>
             <ul>
               <li>
@@ -210,16 +216,11 @@ function TimeLine() {
                 </a>
                 ) programs.
               </li>
-              <li>
-                <empty className="subtitle-three">+</empty> Continued internship
-                with Procter & Gamble
-              </li>
             </ul>
-            <b className="subtitle-three"> Spring Semester </b> <br />
+            <b className="subtitle-three"> Research </b> <br />
             <ul>
               <li>
-                <empty className="subtitle-three">+</empty> Invited onto
-                research project working with{" "}
+                <empty className="subtitle-three">+</empty> Led project with{" "}
                 <a
                   href="https://www.ohiohealth.com/"
                   className="timeline-links"
@@ -231,34 +232,28 @@ function TimeLine() {
                 Parkinsons Disease
               </li>
               <li>
-                <empty className="subtitle-three">+</empty> Invited onto
-                research project in partnership with{" "}
+                <empty className="subtitle-three">+</empty> Collaborated with{" "}
                 <a
                   className="timeline-links"
                   href="https://www.thk.com/?q=us/node/5170"
                 >
-                  THK manufacturing
+                  THK manufacturing 
                 </a>
-                .{" "}
-              </li>
-              <li>
-                <empty className="subtitle-three">+</empty> Continued internship
-                with Procter & Gamble through end of semester
+                 {" "}on an XR project.
               </li>
             </ul>
-            <b className="subtitle-three"> Summer </b>
+            <b className="subtitle-three"> Switching gears </b>
             <br />
             <ul>
               <li>
-                <empty className="subtitle-three">+</empty> Took internship at{" "}
+                <empty className="subtitle-three">+</empty> Left P&G and joined{" "}
                 <a
                   href="https://www.nps.gov/maca/index.htm"
                   className="timeline-links"
                 >
                   Mammoth Cave National Park
                 </a>{" "}
-                under the Science and Resource Management Department for the
-                Summer
+                under the Science and Resource Management Division.
               </li>
               <li>
                 <empty className="subtitle-three">+</empty> Awarded grant to
@@ -269,7 +264,7 @@ function TimeLine() {
                 >
                   Virtual Reality experience{" "}
                 </a>
-                for accessibility and PR for the park.
+                for park accessibility.
               </li>
             </ul>
           </div>
@@ -284,10 +279,6 @@ function TimeLine() {
             <br />
             <ul>
               <li>
-                <empty className="subtitle-four">+</empty> Began interest in
-                coding through tinkering with Ti-84 Calculator
-              </li>
-              <li>
                 <empty className="subtitle-four">+</empty> Graduated{" "}
                 <a
                   href="https://www.dispatch.com/story/news/local/pickerington/2021/04/15/pickerington-schools-names-top-10-students-central-north-classes-2021/7207174002/"
@@ -298,12 +289,11 @@ function TimeLine() {
                 (top ten) from High School.{" "}
               </li>
               <li>
-                <empty className="subtitle-four">+</empty> Began an internship
-                with{" "}
+                <empty className="subtitle-four">+</empty> Joined{" "}
                 <a className="timeline-links" href="https://us.pg.com/">
                   Procter & Gamble{" "}
                 </a>{" "}
-                with their OCR Smart Automation team
+                on their OCR Smart Automation team
               </li>
               <li>
                 <empty className="subtitle-four">+</empty> Presented mobile app
