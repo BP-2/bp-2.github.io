@@ -76,9 +76,8 @@ function Projects() {
               </button>
               <button
                 className="project-button"
-                onClick={() => handleCategoryChange("other")}
-              >
-                Other
+                onClick={() => window.location.href = "https://brady-phelps.dev/research-portfolio/"}              >
+                Research
               </button>
           </div>
         </form>
@@ -127,9 +126,8 @@ function Projects() {
               </button>
               <button
                 className="project-button"
-                onClick={() => handleCategoryChange("other")}
-              >
-                Other
+                onClick={() => window.location.href = "https://brady-phelps.dev/research-portfolio/"}              >
+                Research
               </button>
           </div>
         </form>

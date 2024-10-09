@@ -61,6 +61,7 @@ function App() {
       <a href = "https://github.com/BP-2"><img src = {github} className="logo-links"></img></a>
       <a href = "https://scholar.google.com/citations?user=F0cpYusAAAAJ&hl=en&oi=ao"><img src = {scholar} className="logo-links"></img></a>
       </div>
+      <h2 className="sub-heading">Checkout my <a href="https://brady-phelps.dev/research-portfolio/" className="research-link">research website</a>!</h2>
       </div>
     </div>
     <div className = "visibledevice">
@@ -102,6 +103,7 @@ function App() {
       <a href = "https://github.com/BP-2"><img src = {github} className="logo-links"></img></a>
       <a href = "https://scholar.google.com/citations?user=F0cpYusAAAAJ&hl=en&oi=ao"><img src = {scholar} className="logo-links"></img></a>
       </div>
+      <h2 className="sub-heading">Checkout my <a href="https://brady-phelps.dev/research-portfolio/" className="research-link">research website</a>!</h2>
       </div>
     </div>
     <Deploy theme='orange'/>
