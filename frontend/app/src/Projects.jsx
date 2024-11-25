@@ -18,7 +18,7 @@ function Projects() {
     setSelectedCategory(category);
   };
   return (
-    <div>
+    <div className="wrapped">
       <div className="navbar">
         <Link className="site-logo" to={"/"}>
           BP

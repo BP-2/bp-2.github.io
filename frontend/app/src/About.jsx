@@ -1,11 +1,9 @@
-import { useState } from "react";
 import "./App.scss";
 import "./AboutMe.scss";
 import { Link } from "react-router-dom";
 import AboutMeCard from "./AboutMeCard";
 import TimeLine from "./TimeLine";
 function About() {
-  const [count, setCount] = useState(0);
 
   return (
     <div>
